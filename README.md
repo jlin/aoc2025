@@ -1,2 +1,5 @@
 # aoc2025
-AOC 2025 attempt
+My Advent of Code 2025 attempt
+
+Good luck to everyone trying!
+
