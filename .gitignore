@@ -1,5 +1,6 @@
 # ignore AOC input file, I will name them input.txt for consistency
 input.txt
+example.txt
 
 # Prerequisites
 *.d
