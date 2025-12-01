@@ -15,7 +15,11 @@ Good luck to everyone trying!
 - Decided to use excel
 - new functions I encountered: flash fill, nested IF's, MOD, QUOTIENT
 - trickiest part was to think in both 0 index and 1 index - the counting system of the problem is 0-99, but the number system that I'm used to is 1-100 so I had to do some trial and error to get the right overflow behaviour
-- if I were programming it, I'd either use an array with bounds checking or a ring buffer. I had a ring buffer implementation in c from a previous course ELEX 8030, all I would need to do is to set the ring size, and let the "ring" mechanism take care of the looping/overflow
+- if I were programming it, I'd either use 
+	- an array with bounds checking
+	- or a ring buffer. I had a ring buffer implementation in c from a previous course ELEX 8030, all I would need to do is to set the ring size, and let the "ring" mechanism take care of the looping/overflow, and the "data" being stored in the ring would be the count of times when the buffer is empty. Part 2 can be accomplished by adding some checking to the code where the ring loops back and forth on itself. 
+	- OR it could be a stack where you push and pop. 
+	- Lots of interesting data structures to use with this problem.
 - using excel was a blessing in disguise because I had access to a bunch of easy to use built in functions so I don't have to code it all
 ### Part 2
 - going to do this tomorrow.
